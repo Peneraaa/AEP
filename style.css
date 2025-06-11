@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+header, footer {
+    background-color: #105513;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #105513;
+    margin-top: 30px;
+}
+
+#calendario-container ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+#calendario-container li {
+    margin: 6px 0;
+    background-color: #e8f5e9;
+    padding: 8px;
+    border-left: 5px solid #388e3c;
+    border-radius: 5px;
+}
+
+.dica-lista p {
+    background-color: #e3f2fd;
+    padding: 8px;
+    margin: 6px 0;
+    border-left: 5px solid #2196f3;
+    border-radius: 5px;
+}
+
+#lista-pontos li {
+    margin: 6px 0;
+    background-color: #fff3e0;
+    padding: 8px;
+    border-left: 5px solid #ff9800;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+#quiz-container button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    background-color: #105513;
+    color: white;
+}
+
+#calendario-container ul,
+#lista-pontos {
+    list-style: none;
+    padding-left: 0;
+}
